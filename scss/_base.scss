@@ -1,1 +1,89 @@
+body{
+  background-image: url("../img/pollard_art.png");
+  background-repeat: no-repeat;
+  //background-position: center;
+  //background-attachment: fixed;
+  background-size: 100%;
+  }
 
+/*set up nav bar display for all pages*/
+nav{
+  display: inline;
+}
+/* horizontal list design */
+.not_dropdown{
+    background-color: rgba(255,255,255,.5);
+		transition: all 0.4s ease-out;
+    list-style-type: none;
+    margin: 0;
+		padding-left:1.5vw;
+		padding-top: 2.0vw;
+    padding-bottom: 2.0vw;
+    overflow: hidden;
+    color: black;
+
+}
+.not_dropdown:hover{
+	/*transition: background-color 4s;*/
+	background-color: rgba(255,255,255,.9);
+  color: black;
+  //font-size: 120%;
+	transition: all 0.4s ease-out;
+
+}
+// .not_dropdown_image{
+//     list-style-type: none;
+//     margin-left: .5vw;
+//     padding: 0;
+//     /*possibly not necessary*/
+//     overflow: hidden;
+//
+// }
+
+/*put on left side of page*/
+.OG {
+    padding-top: 1%;
+    float: left;
+}
+
+
+.OG a {
+   /*seperate elements using block*/
+    font-size: 100%;
+    display: block;
+    color: rgba(0,0,0,.7);
+    text-align: center;
+    padding-right: 45px;
+    text-decoration: none;
+}
+/*add hover properties to links*/
+.OG a:hover {
+  color: black;
+	//font-weight: bold;
+}
+#faux{
+  font-size: 200%;
+  //padding-right: 50px;
+  margin-top: -1%;
+
+}
+#faux:hover{
+  color: tomato;
+  cursor: pointer;
+  //cursor:
+}
+#instagram{
+	float:right;
+	font-size: 155%;
+	margin-right: 7%;
+  margin-top: -.3%;
+}
+#VSCO{
+	font-size: 100%;
+	font-family: 'Lato', sans-serif;
+}
+#VSCO_ls{
+	float: right;
+	margin-right: -1%;
+	margin-top: .3%;
+}
