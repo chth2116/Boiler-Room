@@ -518,7 +518,7 @@ textarea {
   padding: 0.2em 0;
 }
 
-body {
+.index_body {
   background-image: url("../img/pollard_art.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -531,7 +531,7 @@ nav {
 
 /* horizontal list design */
 .not_dropdown {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.4s ease-out;
   list-style-type: none;
   margin: 0;
@@ -596,6 +596,93 @@ nav {
   float: right;
   margin-right: -1%;
   margin-top: .3%;
+}
+
+.box {
+  margin-top: 20%;
+  padding: 4%;
+  padding-top: 2%;
+  margin-left: 55%;
+  margin-right: 10%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #505050;
+  text-align: center;
+}
+
+#gem {
+  font-size: 300%;
+}
+
+#gem:hover {
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+  color: red;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../img/product_header.webp");
+  background-size: 100%;
+  padding-bottom: 40%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-size: 150%;
+}
+
+.skis {
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.s1 {
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+}
+
+.s2 {
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+}
+
+.s3 {
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+}
+
+.s4 {
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+}
+
+.s5 {
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+}
+
+.s6 {
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
 }
 
 /*
@@ -760,4 +847,11 @@ nav {
   h3 {
     page-break-after: avoid;
   }
+}
+.skis {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1em 1em;
+  grid-template-areas: "blank header";
 }

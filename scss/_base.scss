@@ -1,4 +1,4 @@
-body{
+.index_body{
   background-image: url("../img/pollard_art.png");
   background-repeat: no-repeat;
   //background-position: center;
@@ -12,7 +12,7 @@ nav{
 }
 /* horizontal list design */
 .not_dropdown{
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.3);
 		transition: all 0.4s ease-out;
     list-style-type: none;
     margin: 0;
@@ -44,7 +44,7 @@ nav{
 .OG {
     padding-top: 1%;
     float: left;
-    
+
 }
 
 
@@ -87,4 +87,143 @@ nav{
 	float: right;
 	margin-right: -1%;
 	margin-top: .3%;
+}
+
+.box{
+//  grid-area: box;
+  margin-top: 20%;
+  padding: 4%;
+  padding-top: 2%;
+  margin-left: 55%;
+  margin-right: 10%;
+  //background-color: rgba(139,0,0,.3);
+  background-color: rgba(255,255,255,.8);
+  color: rgb(80,80,80);
+  text-align: center;
+  // margin-top: 2%;
+  //padding-bottom:
+}
+#gem{
+  font-size: 300%
+}
+#gem:hover{
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+  color: red;
+}
+
+// .product_page_image{
+//   background-image: url("../img/product_header.webp");
+//   background-repeat: no-repeat;
+//   //background-position: center;
+//   //background-attachment: fixed;
+//   background-size: 100%;
+//   padding-bottom: 40%;
+//
+// }
+//
+// .product_page_text{
+//   background-color: rgba(255,255,255,.9);
+//   //margin-top: 20%;
+//   color: black;
+// }
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("../img/product_header.webp");
+    background-size: 100%;
+    padding-bottom: 40%;
+
+    //margin-bottom: 70%;
+}
+
+// /* Bottom left text */
+// .bottom-left {
+//     position: absolute;
+//     bottom: 8px;
+//     left: 16px;
+// }
+//
+// /* Top left text */
+// .top-left {
+//     position: absolute;
+//     top: 8px;
+//     left: 16px;
+// }
+//
+// /* Top right text */
+// .top-right {
+//     position: absolute;
+//     top: 8px;
+//     right: 16px;
+// }
+//
+// /* Bottom right text */
+// .bottom-right {
+//     position: absolute;
+//     bottom: 8px;
+//     right: 16px;
+// }
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgba(255,255,255,.8);
+    color: black;
+    font-size: 150%;
+}
+//
+// .box:hover{
+//   //transition: all 0.4s ease-out;
+//   //background-color: rgba(255,255,255,);
+// }
+.skis{
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.s1{
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+  //border-style: solid;
+}
+.s2{
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+  //border-style: solid;
+}
+.s3{
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+  //border-style: solid;
+}
+.s4{
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+  //border-style: solid;
+}
+.s5{
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+  //border-style: solid;
+}
+.s6{
+  background-image: url("../img/pescado.png");
+  background-size: 100%;
+  padding-bottom: 100%;
+  //border-style: solid;
 }

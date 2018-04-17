@@ -1,0 +1,28 @@
+// .main{
+// display: grid;
+//
+// grid-template-columns: 1fr 1fr 2fr;
+//
+// grid-template-rows: 4em 40px;
+//
+// grid-gap: 1em 5em;
+//
+//
+// grid-template-areas:
+// "title title box"
+// "navigation navigation blank"
+// // "copy sidebar"
+// // "copy foots";
+
+.skis{
+  display: grid;
+  
+  //grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1em 1em;
+
+  grid-template-areas:
+    "blank header"
+
+}
