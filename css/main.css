@@ -649,40 +649,104 @@ nav {
   margin-right: 2%;
 }
 
-.s1 {
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
+figcaption {
+  margin-left: 22%;
+  padding-top: 2%;
 }
 
-.s2 {
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
+.footer {
+  margin-top: 12%;
+  background-color: white;
+  padding: 5%;
 }
 
-.s3 {
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
+.contact {
+  margin-left: 10%;
 }
 
-.s4 {
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
+.faq_list {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  color: black;
 }
 
-.s5 {
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
+.faq_header {
+  text-align: center;
 }
 
-.s6 {
-  background-image: url("../img/pescado.png");
+.faq_e a {
+  font-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.about_list {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  color: black;
+}
+
+.about_e a {
+  font-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.product_footer {
+  margin-top: 10%;
+  background-color: white;
+  padding: 5%;
+  border-top: solid;
+}
+
+.about_grid {
+  margin-top: 10%;
+}
+
+.about_image {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../img/about.webp");
+  background-repeat: no-repeat;
   background-size: 100%;
-  padding-bottom: 100%;
+  margin-right: 20%;
+  margin-left: 5%;
+  padding-bottom: 40%;
+}
+
+.about_description {
+  padding-right: 10%;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../img/support_image.webp");
+  background-size: 100%;
+  padding-bottom: 40%;
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-size: 150%;
+}
+
+.faqs {
+  margin-left: 5%;
+  margin-right: 30%;
+  line-height: 200%;
+  margin-top: 4%;
 }
 
 /*
@@ -854,4 +918,22 @@ nav {
   grid-template-rows: 1fr;
   grid-gap: 1em 1em;
   grid-template-areas: "blank header";
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.product_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.about_grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
 }

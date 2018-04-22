@@ -190,40 +190,125 @@ nav{
   margin-top: 4%;
   margin-left: 2%;
   margin-right: 2%;
+  //margin-bottom: 4%;
 }
-.s1{
-  background-image: url("../img/pescado.png");
+figcaption{
+  //text-align: center;
+  margin-left: 22%;
+  padding-top: 2%;
+
+}
+
+.footer{
+  margin-top: 12%;
+  background-color: white;
+  padding: 5%;
+}
+.contact{
+  margin-left: 10%;
+}
+.faq_list{
+
+  list-style-type: none;
+  margin: 0;
+  // padding-left:1.5vw;
+  // padding-top: 2.0vw;
+  // padding-bottom: 2.0vw;
+  overflow: hidden;
+  color: black;
+
+}
+.faq_header{
+  text-align: center;
+}
+.faq_e a{
+  font-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.about_list{
+  list-style-type: none;
+  margin: 0;
+  // padding-left:1.5vw;
+  // padding-top: 2.0vw;
+  // padding-bottom: 2.0vw;
+  overflow: hidden;
+  color: black;
+}
+
+.about_e a{
+  font-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.product_footer{
+  margin-top: 10%;
+  background-color: white;
+  padding: 5%;
+  border-top: solid;
+}
+.s1:hover{
+
+}
+.about_grid{
+  margin-top: 10%;
+}
+.about_image{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../img/about.webp");
+  background-repeat: no-repeat;
   background-size: 100%;
-  padding-bottom: 100%;
+  margin-right: 20%;
+  margin-left: 5%;
+  //height: 100%;
+  // width: 100%;
+  padding-bottom: 40%;
   //border-style: solid;
 }
-.s2{
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
-  //border-style: solid;
+
+.about_description{
+  padding-right: 10%;
 }
-.s3{
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
-  //border-style: solid;
+
+.about_paragraph{
+  // margin-right: 10%;
 }
-.s4{
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
-  //border-style: solid;
+
+.about_header{
+
 }
-.s5{
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
-  //border-style: solid;
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("../img/support_image.webp");
+    background-size: 100%;
+    padding-bottom: 40%;
+
+    //margin-bottom: 70%;
 }
-.s6{
-  background-image: url("../img/pescado.png");
-  background-size: 100%;
-  padding-bottom: 100%;
-  //border-style: solid;
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgba(255,255,255,.8);
+    color: black;
+    font-size: 150%;
+}
+
+.faqs{
+  margin-left: 5%;
+  margin-right: 30%;
+  line-height: 200%;
+  margin-top: 4%;
 }
