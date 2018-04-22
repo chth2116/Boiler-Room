@@ -619,7 +619,6 @@ nav {
   color: red;
 }
 
-/* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
@@ -629,7 +628,6 @@ nav {
   padding-bottom: 40%;
 }
 
-/* Centered text */
 .centered {
   position: absolute;
   top: 50%;
@@ -749,6 +747,17 @@ figcaption {
   margin-top: 4%;
 }
 
+@media screen and (max-width: 850px) {
+  .about_description {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .about_image {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
 /*
  * Hide visually and from screen readers
  */
@@ -936,4 +945,17 @@ figcaption {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
+}
+
+@media screen and (max-width: 850px) {
+  .about_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 850px) {
+  .skis {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
